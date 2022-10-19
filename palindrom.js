@@ -1,7 +1,11 @@
-let x=abba;
-len=x.length-1
-if(x[0]==x[len]){
-    console.log("not a palindrom")
+let str=nrupul
+
+let bag=""
+for(let i=str.length-1; i>=0; i--){
+       bag=bag+str[i]
+}
+if(bag==str){
+       console.log("No")
 }else{
-    console.log("palindrom")
+        console.log("Yes")
 }
